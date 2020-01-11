@@ -1,0 +1,77 @@
+body {
+  background-color: #8BA8B7;
+}
+#imgprim {
+    max-width: 100%;
+    height: auto;
+}
+h1 {
+  font-family: "Times New Roman", sans-serif; 
+  text-align: center;
+}
+h2 {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  text-size: 12px;
+  text-align: center;
+}
+
+h3 {
+  text-family: "Verdana", sans-serif;
+  text-size:12px;
+  text-align:center;
+}
+
+h4 {
+  texte-size:10px;
+  text-align:center;
+}
+
+h5 {
+  text-size:12px;
+  text-align:center;
+  color: "white";
+}
+
+h6 {
+  text-align:center;
+}
+
+p {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  text-size:10px;
+  text-align:justify;
+}
+
+.sanskrit {
+  text-align:center;
+}
+
+.mean {
+  background-color:white;
+  padding:5px;
+}
+
+#primarySeries{
+  background-color:white;
+  padding:2px;
+}
+
+#txt{
+  text-align:justify;
+}
+
+#fitvid834137{
+  max-width: 100%;
+    height: auto;
+}
+
+#imgsec{
+    max-width: 100%;
+    height: auto;
+}
+
+.youtube{
+    display:block;
+    margin:auto;
+    flex
+}
