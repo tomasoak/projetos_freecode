@@ -1,0 +1,111 @@
+body {
+  background-color: #e6f2ff;
+  font-family: 'Poppins', sans-serif; 
+}
+
+.container {
+  background-color: #dcdcdc;
+  width: 50%;
+  display: block;
+  margin: auto;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+}
+
+.container-description{
+    font-size: 16px;
+    text-align: center;
+    width: 50%;
+    display: grid;
+    margin: auto;
+    border-radius: 10px;
+  }
+
+.form-control{
+  display: grid;
+  width: 80%;
+  height: 1.8rem;
+  padding: 0.200rem 0.5rem;
+  margin: auto;
+}
+
+#name-label{
+  padding: 10px;
+}
+
+#lastname-label {
+  padding: 10px;
+}
+
+#email-label {
+  padding: 10px;
+}
+
+#number-label {
+  padding: 10px;
+}
+
+#gender {
+  display: flex;
+}
+
+#contact {
+  display: flex;
+}
+
+#gender {
+  margin: 10px;
+}
+
+#contact {
+  margin: 10px;
+}
+
+#degree {
+  margin: 10px;
+}
+
+#interested {
+  margin: 10px;
+}
+
+#interested-groups {
+  margin: 10px;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    margin-bottom: 0.5rem;
+}
+
+#comments {
+  padding: 10px;
+}
+
+#text {
+  margin: 20px;
+}
+
+#text-area {
+  height: 100px;
+  width: 100%;
+}
+
+#submit {
+  background-color: #edd640;
+  border-radius: 5px;
+  width: 80%;
+  height: 30px;
+  display: grid;
+  margin: auto;
+}
+
+#footer {
+  font-size: 10px;
+  display: grid;
+  margin: auto;
+}

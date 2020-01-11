@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+
+<body>
+  <header>
+    <div class="container">
+      <div class="conference">
+      <h1 id="title"><img class="icon" src="http://freedesignfile.com/upload/2017/08/satelite-icon-vector.png" alt="Satelite icon" width="40" height="40" title="Satelite icon">GIS Summer Conference<img class="icon" src="http://freedesignfile.com/upload/2017/08/satelite-icon-vector.png" alt="Satelite icon" width="40" height="40" title="Satelite icon"></h1>
+      </div>
+      </div>
+  </header>
+    </div>
+       <div class="container-description">
+       <p id="description">We have the pleasure to present the <strong>III Edition</strong> of<strong> GIS Summer Conference</strong> of Dreamland.</p>
+      </div>
+    <div class="container">
+      <form id="survey-form">
+        <div class="form-group">
+            <label id="name-label" for="name">Name</label>
+              <input type="text" name="name"  id="name" class="form-control" placeholder="Enter your name" required>
+        </div>
+        <div class="form-group">
+            <label id="lastname-label" for="lastname">Last Name</label>
+              <input type="text" name="lastname" id="lastname" class="form-control"  placeholder="Enter your last name" required>
+        </div>
+        <div class="form-group"> 
+              <label id="email-label" for="email">Email</label>
+                  <input type="email" name="email" id="email" class="form-control" placeholder="Enter your email" required>
+        </div>
+        <div class="form-group">  
+              <label id="number-label" for="number">Age</label>
+                  <input type="number" name="number" id="number"  class="form-control" placeholder="Enter your age" min="16" max="80" required>
+        <div class="form-group">
+         <h3 id ="gender">Select your gender</h3>
+          <div id="gender" class="form-group">
+          <label for="male"><input type="radio" value="male" name="gender">Male</label>
+          <label for="female"><input type="radio" value="female" name="gender">Female</label>
+          </div>
+        </div>
+        <div class="form-group">
+          <h3 id ="degree">Select your academic degree</h3>
+          <select id="dropdown" name="role" class="form-control" required>   
+            <option disabled selected option>Select an option</option>
+            <option value="Undergradueted">Undergraduate</option>
+            <option value="Master">Master</option>
+            <option value="PhD">PhD</option>
+          </select>
+        </div>
+        <br>
+        <div class="form-group">
+         <h3 id ="contact">How did you have contact with the GIS Summer Sumit?</h3>
+          <div id="contact" class="form-group">
+          <label for="internet"><input type="radio" value="internet" name="contact">Internet</label>
+          <label for="university"><input type="radio" value="university" name="contact">University</label>
+          <label for="friend"><input type="radio" value="friend" name="contact">Friend</label>
+          </div>
+        </div>
+        <div class="form-group">
+         <h3 id="interested">What is your most interested field on GIS?</h3>
+          <div id="interested-groups" class="form-group">
+          <label for="Mapping">
+            <input type="checkbox" name="Mapping" class="input-checkbox" value="Mapping">Mapping
+          </label>
+          <label for="Remote Sensing">
+            <input type="checkbox" name="Remote Sensing" class="input-checkbox" value="Remote Sensing">Remote Sensing
+          </label>
+          <label for="Web-GIS">
+            <input type="checkbox" name="Web-GIS" class="input-checkbox" value="Web-GIS">Web-GIS
+          </label>
+          <label for="Land Use and Land Cover Changes">
+            <input type="checkbox" name="Land Use and Land Cover Changes" class="input-checkbox" value="Land Use and Land Cover Changes">Land Use and Land Cover Changes
+          </label>
+          </div>
+        </div>
+        <div>
+         <h3 id ="comments">Leave comments bellow</h3>
+          <div id="text">
+          <textarea id="text-area" class="input-textarea" name="comment" placeholder="Enter your comment here..."></textarea>
+          </div>
+        </div>   
+        <div>
+        <button id="submit" type="submit"><strong>Submit</strong></button>
+          </div>
+  </form>
+      <br>
+        <div id="footer">
+     <footer>Powered by GIS Lunatics® - 2019</footer>
+        </div>
+ </div>
+</body>
